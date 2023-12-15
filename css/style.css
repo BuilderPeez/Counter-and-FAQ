@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/space\ banner.jfif);
+    position: fixed;
+}
+h1.head{ 
+    color: white;
+    text-transform: capitalize;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+.count{
+    display: flex;
+}
+.count div{
+    flex-basis: 100px;
+    margin-left: 50px;
+}
+.count div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+    color: white;
+}
+.count div span{
+    color: white;
+}
+.rocket{
+    width: 300px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+
+p{
+    color: white;
+    margin-left: 150px;
+    font-size: 400%;
+    margin-top: 50px;
+    
+}
